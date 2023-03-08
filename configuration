@@ -19,8 +19,29 @@ MULTILIB="default"
 BUILD_CHROOT=y
 # BUILD_BOOT is not set
 METHOD="chroot"
-# BLFS_TOOL is not set
+BLFS_TOOL=y
+
+#
+# blfs-tool dependencies
+#
+DEP_LIBXML=y
+DEP_LIBXSLT=y
+DEP_DBXML=y
+DEP_LYNX=y
+DEP_SUDO=y
+DEP_WGET=y
+# DEP_GPM is not set
+DEP_GIT=y
+# end of blfs-tool dependencies
+
+BLFS_BRANCH=y
+# BLFS_WORKING_COPY is not set
+BLFS_COMMIT="mihari-dev"
+BLFS_ROOT="/blfs_root"
+BLFS_XML="blfs-xml"
+LFS_XML="lfs-xml"
 # CUSTOM_TOOLS is not set
+TRACKING_DIR="/var/lib/jhalfs/BLFS"
 # end of BOOK Settings
 
 #
@@ -48,8 +69,10 @@ TST_1=y
 # end of Test settings
 
 TEST=1
-# PKGMNGT is not set
-# INSTALL_LOG is not set
+PKGMNGT=y
+PKG_PACK=y
+# LIB_LOAD is not set
+INSTALL_LOG=y
 # STRIP is not set
 DEL_LA_FILES=y
 # NO_PROGRESS_BAR is not set
@@ -61,7 +84,7 @@ DEL_LA_FILES=y
 # HAVE_FSTAB is not set
 CONFIG_BUILD_KERNEL=y
 CONFIG="mihari-dev-kernel-config"
-# NCURSES5 is not set
+NCURSES5=y
 TIMEZONE="GMT"
 LANG="ko_KR.UTF-8"
 # FULL_LOCALE is not set
