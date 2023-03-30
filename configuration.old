@@ -83,7 +83,7 @@ DEL_LA_FILES=y
 #
 # HAVE_FSTAB is not set
 CONFIG_BUILD_KERNEL=y
-CONFIG="mihari-dev-kernel-config"
+CONFIG="./mihari-dev-kernel-config"
 NCURSES5=y
 TIMEZONE="GMT"
 LANG="ko_KR.UTF-8"
