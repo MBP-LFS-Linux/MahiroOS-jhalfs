@@ -10,7 +10,7 @@ INITSYS="systemd"
 RUN_ME="./jhalfs run"
 BRANCH=y
 # WORKING_COPY is not set
-COMMIT="mihari-dev"
+COMMIT="trunk"
 LFS_MULTILIB_NO=y
 # LFS_MULTILIB_I686 is not set
 # LFS_MULTILIB_X32 is not set
@@ -36,7 +36,7 @@ DEP_GIT=y
 
 BLFS_BRANCH=y
 # BLFS_WORKING_COPY is not set
-BLFS_COMMIT="mihari-dev"
+BLFS_COMMIT="trunk"
 BLFS_ROOT="/blfs_root"
 BLFS_XML="blfs-xml"
 LFS_XML="lfs-xml"
@@ -83,7 +83,7 @@ DEL_LA_FILES=y
 #
 # HAVE_FSTAB is not set
 CONFIG_BUILD_KERNEL=y
-CONFIG="mihari-dev-kernel-config"
+CONFIG="./mihari-dev-kernel-config"
 NCURSES5=y
 TIMEZONE="GMT"
 LANG="ko_KR.UTF-8"
