@@ -57,7 +57,7 @@ RETRYSRCDOWNLOAD=y
 RETRYDOWNLOADCNT=20
 DOWNLOADTIMEOUT=30
 SERVER="http://ftp.osuosl.org"
-# RUNMAKE is not set
+RUNMAKE=y
 CLEAN=y
 # end of General Settings
 
@@ -69,11 +69,11 @@ CONFIG_TESTS=y
 #
 # Test settings
 #
-TST_1=y
-# TST_2 is not set
+# TST_1 is not set
+TST_2=y
 # end of Test settings
 
-TEST=1
+TEST=2
 PKGMNGT=y
 PKG_PACK=y
 # LIB_LOAD is not set
@@ -90,7 +90,7 @@ DEL_LA_FILES=y
 CONFIG_BUILD_KERNEL=y
 CONFIG="$(pwd)/mihari-dev-kernel-config"
 NCURSES5=y
-TIMEZONE="GMT"
+TIMEZONE="KST"
 LANG="ko_KR.UTF-8"
 FULL_LOCALE=y
 PAGE_LETTER=y
