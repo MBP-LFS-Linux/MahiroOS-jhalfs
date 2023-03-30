@@ -51,9 +51,14 @@ LUSER="lfs"
 LGROUP="lfs"
 LHOME="/home"
 BUILDDIR="/mnt/build_dir"
-# GETPKG is not set
+GETPKG=y
+SRC_ARCHIVE="$SRC_ARCHIVE"
+RETRYSRCDOWNLOAD=y
+RETRYDOWNLOADCNT=20
+DOWNLOADTIMEOUT=30
+SERVER="http://ftp.osuosl.org"
 # RUNMAKE is not set
-# CLEAN is not set
+CLEAN=y
 # end of General Settings
 
 #
@@ -73,7 +78,7 @@ PKGMNGT=y
 PKG_PACK=y
 # LIB_LOAD is not set
 INSTALL_LOG=y
-# STRIP is not set
+STRIP=y
 DEL_LA_FILES=y
 # NO_PROGRESS_BAR is not set
 # end of Build Settings
@@ -87,7 +92,7 @@ CONFIG="$(pwd)/mihari-dev-kernel-config"
 NCURSES5=y
 TIMEZONE="GMT"
 LANG="ko_KR.UTF-8"
-# FULL_LOCALE is not set
+FULL_LOCALE=y
 PAGE_LETTER=y
 # PAGE_A4 is not set
 PAGE="letter"
@@ -151,4 +156,4 @@ PKG_LST="unpacked"
 # end of Internal Settings (WARNING: for jhalfs developers only)
 # end of Advanced Features
 
-REBUILD_MAKEFILE=y
+# REBUILD_MAKEFILE is not set
