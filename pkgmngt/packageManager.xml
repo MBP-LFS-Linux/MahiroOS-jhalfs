@@ -12,7 +12,7 @@
 <!ENTITY dpkg-version "1.18.25">
 <!ENTITY dpkg-size "4,411 KB">
 <!ENTITY dpkg-url "&debian-pool;d/dpkg/dpkg_&dpkg-version;.tar.xz">
-<!ENTITY dpkg-md5 "2195338c1792b0678575309a099d2da8">
+<!ENTITY dpkg-md5 "e463f58b04acb23659df23d2a7a05cff">
 <!ENTITY dpkg-home "http://wiki.debian.org/Teams/Dpkg">
 <!ENTITY dpkg-ch5-du "56 MB">
 <!ENTITY dpkg-ch5-sbu "0.2 SBU">
